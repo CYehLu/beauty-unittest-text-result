@@ -42,5 +42,5 @@ class TestSeveral(unittest.TestCase):
 
 if __name__ == "__main__":
     #text_result.ResultFirstTextResult.COLORED = False
-    runner = unittest.TextTestRunner(resultclass=text_result.BeautyFirstTextResult, verbosity=2)
+    runner = unittest.TextTestRunner(resultclass=text_result.BeautyTextResult, verbosity=2)
     unittest.main(testRunner=runner)

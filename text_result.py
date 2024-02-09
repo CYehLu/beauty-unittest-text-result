@@ -27,7 +27,7 @@ class _TokenLine:
     info: Union[str, List[str]]
     
 
-class BeautyFirstTextResult(unittest.TextTestResult):
+class BeautyTextResult(unittest.TextTestResult):
     COLORED = True
 
     def __init__(self, stream, descriptions: bool, verbosity: int):
